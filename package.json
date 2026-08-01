@@ -1,0 +1,13 @@
+{
+  "name": "inkos-printfilm-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "convert": "node src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
