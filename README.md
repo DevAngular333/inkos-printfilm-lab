@@ -2,6 +2,22 @@
 
 Proof of concept for moving a story from [InkOS](https://github.com/Narcooo/inkos) into [PrintFilm](https://github.com/yuanzhongqiao/printfilm).
 
+## DevAngular333 verified path
+
+This public repository adds a reproducible smoke command over the real CLI and
+import function:
+
+```bash
+npm test
+npm run smoke
+```
+
+The smoke uses a tracked Vietnamese Markdown fixture, writes the bridge JSON to
+a temporary directory, verifies title/language/script, and confirms stale
+`scriptData`/`shots` are cleared. See [case study](docs/case-study.md) and
+[attribution/license boundary](NOTICE.md). InkOS is AGPL-3.0; PrintFilm's
+license was not publicly verifiable during the 2026-10-21 audit.
+
 ## What this repository proves
 
 - InkOS can export a book as Markdown with `inkos export`.
